@@ -83,3 +83,12 @@ console.log(name1 !== name2)
 
 /* EXTRA */
 
+let name1 = "john"
+let name2 = "John"
+
+name2 = name2.toLowerCase();
+
+console.log(name2)
+
+name1 === name2
+console.log(name1 === name2)
